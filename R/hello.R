@@ -8,7 +8,9 @@
 #' @seed A seed number to fix the randomization (if desired)
 #' @return A list of the marker effects (1*NQTN), the phenotype (n*1), the combined additive effects (n*1), the residual effects (n*1), the additive marker indices (1*m), and the interaction marker positions (1*nint)
 
-
+hello <- function() {
+  print("Hello, testdesktop!")
+}
 
 
 # Hello, world!
@@ -25,7 +27,3 @@
 #   Install Package:           'Ctrl + Shift + B'
 #   Check Package:             'Ctrl + Shift + E'
 #   Test Package:              'Ctrl + Shift + T'
-
-hello <- function() {
-  print("Hello, test!")
-}
